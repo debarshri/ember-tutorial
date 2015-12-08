@@ -1,0 +1,9 @@
+<div class="container">
+<h1> Welcome to Super Rentals </h1>
+
+We hope you find exactly what you're looking for in a place to stay.
+
+{{#each model as |rental-unit|}}
+  {{rental-listing rental=rental-unit}}
+{{/each}}
+</div>
